@@ -8,9 +8,9 @@
 
 启动流程如下：
 
-![image-20211109190231126](HAL%E5%BA%93%E5%90%AF%E5%8A%A8%E6%B5%81%E7%A8%8B.assets/image-20211109190231126.png)
+![image-20211109190231126](https://raw.githubusercontent.com/swwdsy/Blog_Image/master/imagesimage-20211109190231126.png)
 
-这里内容相对底层，我也没有太多自己的理解，就直接引用安富莱用户手册中的内容了（硬汉写手册的时候没关语法检查，这个红线很惹眼哈哈哈）。
+这里内容相对底层，我也没有太多自己的理解，所以不再复述，直接引用安富莱用户手册中的内容了（硬汉写手册的时候没关语法检查，这个红线很惹眼哈哈哈）。
 
 查资料的时候发现，这里很多东西都是《cortex-m3权威》指南上有系统描述。先挖个坑，以后有机会回去看一看的。
 
@@ -18,7 +18,7 @@
 
 先上图：
 
-![image-20211109192127751](HAL%E5%BA%93%E5%90%AF%E5%8A%A8%E6%B5%81%E7%A8%8B.assets/image-20211109192127751.png)
+![image-20211109192127751](https://raw.githubusercontent.com/swwdsy/Blog_Image/master/imagesimage-20211109192127751.png)
 
 main()函数中执行了HAL_Init()和SystemClock_Config()，两个函数，后面就是外设初始化和用户函数了
 

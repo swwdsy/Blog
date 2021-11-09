@@ -26,8 +26,10 @@
 
 但是遇到了Assistant这个插件，实现了上述所有功能，并且能调用keil的api在VSCode中进行编译，烧录。而且解决了VSCode会将工程文件一股脑地加到文件列表里，层级混乱的问题。Assistant中会用keil的工程结构打开，这点很赞。
 
-Assistant也有一点小小的问题，编译和烧录的快捷键是没办法使用的。所以我搜了下，发现是插件本身的bug，作者在github的源码里应该是修复了，但是并没有更新到vscode插件商店里。![image-20211108171355328](vscode%E5%BC%80%E5%8F%91stm32.assets/image-20211108171355328.png)
+Assistant也有一点小小的问题，编译和烧录的快捷键是没办法使用的。所以我搜了下，发现是插件本身的bug，作者在github的源码里应该是修复了，但是并没有更新到vscode插件商店里。
+
+![image-20211108171355328](https://raw.githubusercontent.com/swwdsy/Blog_Image/master/imagesimage-20211108171355328.png)
 
 并且表示插件停止更新，有些可惜。
 
-![image-20211108172006124](vscode%E5%BC%80%E5%8F%91stm32.assets/image-20211108172006124.png)
+![image-20211108172006124](https://raw.githubusercontent.com/swwdsy/Blog_Image/master/imagesimage-20211108172006124.png)
